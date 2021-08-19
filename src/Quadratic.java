@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Quadratic {
     public static void main(String[] args) {
-        // create scanner object to take user input
+        // create scanner object to get user input
         Scanner input = new Scanner(System.in);
         // declare root1 and root2 variables are double
         double root1, root2;
