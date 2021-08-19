@@ -1,3 +1,10 @@
+/*
+Ryan Chien
+Period 4
+Fundamentals
+RandNums
+ */
+
 import java.util.Random;
 import java.util.Scanner;
 
