@@ -18,7 +18,8 @@ public class FavoriteMovies {
         }
         // spacing
         System.out.print("\n\n");
-        // interatino integer
+
+        // index integer
         int i = 0;
         // print songs on same line with commas
         while (i < favSongs.length) {
