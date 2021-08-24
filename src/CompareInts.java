@@ -12,9 +12,9 @@ public class CompareInts {
         // create scanner object to get user input
         Scanner input = new Scanner(System.in);
         // get user input and assign to a and b
-        System.out.println("Enter value for a:");
+        System.out.print("Enter value for a: ");
         int a = Integer.parseInt(input.nextLine());
-        System.out.println("Enter value for b:");
+        System.out.print("Enter value for b: ");
         int b = Integer.parseInt(input.nextLine());
 
         // determine which case it is

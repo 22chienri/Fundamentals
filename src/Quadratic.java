@@ -14,12 +14,12 @@ public class Quadratic {
         // declare root1 and root2 variables are double
         double root1, root2;
         // get user input and assign to a, b, and c
-        System.out.println("Enter value for a:");
-        double a = Double.parseDouble(input.nextLine());
-        System.out.println("Enter value for b:");
-        double b = Double.parseDouble(input.nextLine());
-        System.out.println("Enter value for c:");
-        double c = Double.parseDouble(input.nextLine());
+        System.out.print("Enter value for a: ");
+        double a = input.nextDouble();
+        System.out.print("Enter value for b: ");
+        double b = input.nextDouble();
+        System.out.print("Enter value for c: ");
+        double c = input.nextDouble();
 
         // calculate determinant (b^2-4ac
         double determinant = b * b - 4 * a * c;
