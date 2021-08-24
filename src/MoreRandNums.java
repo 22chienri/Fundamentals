@@ -5,7 +5,6 @@ Fundamentals
 MoreRandNums
  */
 
-
 public class MoreRandNums {
     public static void main(String[] args) {
         // define array

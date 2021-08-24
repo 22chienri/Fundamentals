@@ -5,7 +5,6 @@ Fundamentals
 RandNums
  */
 
-
 public class RandNums {
     public static void main(String[] args) {
         // loop 10 times with index

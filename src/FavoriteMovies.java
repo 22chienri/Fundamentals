@@ -5,7 +5,6 @@ Fundamentals
 FavoriteMovies
  */
 
-
 public class FavoriteMovies {
     public static void main(String[] args) {
         // define arrays
