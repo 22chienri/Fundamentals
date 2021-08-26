@@ -1,3 +1,10 @@
+/*
+Ryan Chien
+Period 4
+Fundamentals
+Pythagorean
+ */
+
 import java.util.Scanner;
 
 public class Pythagorean {
@@ -12,7 +19,7 @@ public class Pythagorean {
         System.out.print("The length of the hypotenuse is: ");
         int sideC = input.nextInt();
 
-        // determine if it is a right triangle
+        // determine if it is a right triangle and print results
         if (sideA * sideA + sideB * sideB == sideC * sideC) {
             System.out.println("These lengths form a right triangle.");
             System.out.println("The area is: " + sideA * sideB / 2);
