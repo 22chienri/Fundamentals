@@ -15,11 +15,14 @@ public class MoreRandNums {
         int[] array = new int[50];
         // fill array with random numbers between 0 and 100
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(100);
+            array[i] = (int)(Math.random() * (100 + 1));
         }
-        // print each number in the array with a space between
-        for (int num : array) {
-            System.out.printf("%s ", num);
+        // print array in rows and columns
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.printf("%s\t", array[j + (i * 5)]);
+            }
+            System.out.print("\n");
         }
     }
 }
