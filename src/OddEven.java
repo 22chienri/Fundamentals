@@ -12,13 +12,13 @@ public class OddEven {
         // create scanner object to get user input
         Scanner input = new Scanner(System.in);
         // get user input and assign to num
-        System.out.println("Enter your number:");
+        System.out.print("Enter your number: ");
         int num = input.nextInt();
 
         // calculate remainder
         int remainder = num % 2;
         // print even or odd
-        if (remainder == 2) {
+        if (remainder == 0) {
             System.out.printf("%s is an even number%n", num);
         }
         else {
